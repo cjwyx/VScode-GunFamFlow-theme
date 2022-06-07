@@ -1,0 +1,21 @@
+{
+    "name": "vscode-gundamflow-theme",
+    "displayName": "Vscode-GUNDAMFlow-Theme",
+    "description": "GunDam Style Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "GunDam-Flow",
+                "uiTheme": "vs-dark",
+                "path": "./themes/GunDam-Flow-color-theme.json"
+            }
+        ]
+    }
+}
