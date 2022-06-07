@@ -1,8 +1,8 @@
 {
 	"name": "GunDam-Flow",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
+		"editor.background": "#000000",
+		"editor.foreground": "#fff1e4",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
@@ -15,17 +15,19 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#38665c"
 			}
 		},
+        // 变量
 		{
 			"name": "Variables",
 			"scope": [
 				"variable",
-				"string constant.other.placeholder"
+				"string constant.other.placeholder",
+                "other"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#fff1e4"
 			}
 		},
 		{
@@ -47,21 +49,32 @@
 				"foreground": "#FF5370"
 			}
 		},
+        // Type
+        {
+            "name": "Storage.Type",
+            "scope":[
+                "storage.type",
+                "entity.name.type"
+            ],
+            "settings": {
+                "foreground": "#ffc446",
+            }
+        },
+        // 
 		{
 			"name": "Keyword, Storage",
 			"scope": [
 				"keyword",
-				"storage.type",
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#ffa52f"
 			}
 		},
+        //符号
 		{
 			"name": "Operator, Misc",
 			"scope": [
-				"keyword.control",
 				"constant.other.color",
 				"punctuation",
 				"meta.tag",
@@ -75,9 +88,27 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#a0d4ff"
 			}
 		},
+        {
+            "name":"Keyword.Operator",
+            "scope": [
+				"keyword.operator",
+			],
+			"settings": {
+				"foreground": "#ffd89d"
+			}
+        },
+        {
+            "name": "Keyword.Control",
+            "scope":"keyword.control",
+            "settings": {
+                "foreground": "#cc8eff",
+                "fontStyle":"italic bold"
+            }
+        },
+
 		{
 			"name": "Tag",
 			"scope": [
@@ -89,10 +120,35 @@
 				"foreground": "#f07178"
 			}
 		},
-		{
-			"name": "Function, Special Method",
+        //Function
+        {
+			"name": "Function",
+			"scope": [
+				// "entity.name.function",
+				"meta.function-call",
+				"variable.function",
+				"support.function",
+			],
+			"settings": {
+				"foreground": "#82AAFF"
+			}
+        },
+        {
+            "name": "Function definition",
 			"scope": [
 				"entity.name.function",
+                "meta.function.definition",
+                "meta.function"
+			],
+			"settings": {
+				"foreground": "#84ceff",
+                "fontStyle": "bold"
+			}
+        },
+
+		{
+			"name": "Special Method",
+			"scope": [
 				"meta.function-call",
 				"variable.function",
 				"support.function",
@@ -121,10 +177,17 @@
 				"foreground": "#f07178"
 			}
 		},
+        {
+            "name": "Constant Number char",
+            "scope":["constant.numeric","constant.character"],
+            "settings":{
+                "foreground": "#ff3377",
+                // "fontStyle": "bold"
+            }
+        },
 		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"name": "Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
-				"constant.numeric",
 				"constant.language",
 				"support.constant",
 				"constant.character",
