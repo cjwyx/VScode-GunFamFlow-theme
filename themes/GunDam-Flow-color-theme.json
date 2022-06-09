@@ -3,7 +3,7 @@
 	"colors": {
 		"activityBar.background": "#111111", //侧边栏
 		"activityBar.border": "#333333", //侧边栏边界
-		"activityBar.foreground": "#f8ffcf", //侧边栏元素
+		"activityBar.foreground": "#ccf3ff", //侧边栏元素
 		"activityBarBadge.background": "#3bfff5", //侧边栏元素活跃徽章
 		"activityBarBadge.foreground": "#000000", //侧边栏元素活跃徽章背板
 		"badge.background": "#131313", //通用徽章背板
@@ -120,7 +120,7 @@
 		"terminal.ansiYellow": "#ffcb6b",
         "terminal.background":"#000000",
         "terminal.border":"#222222",//：分隔终端内分割窗格的边框色。默认为panel.border
-        "terminal.foreground":"#bbcaa9",//集成终端的默认文字色
+        "terminal.foreground":"#c8d0bd",//集成终端的默认文字色
         "terminal.selectionBackground":"#234a9ca4",//终端的选择背景色
         // "terminalCursor.background":"#ff0000",//终端光标的背景色
         "terminalCursor.foreground":"#ffa600",//终端光标的前景色
