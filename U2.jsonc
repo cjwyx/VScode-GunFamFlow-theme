@@ -1,0 +1,208 @@
+{
+    "name": "Comment",
+    "scope": [
+        "comment",
+        "punctuation.definition.comment"
+    ],
+    "settings": {
+        "fontStyle": "italic",
+        "foreground": "#38665c"
+    }
+},
+{
+    "name": "Invalid",
+    "scope": [
+        "invalid",
+        "invalid.illegal"
+    ],
+    "settings": {
+        "foreground": "#FF5370"
+    }
+},
+{
+    "name": "Variables",
+    "scope": [
+        "variable",
+        "string constant.other.placeholder",
+        "other"
+    ],
+    "settings": {
+        "foreground": "#ffe2d2"
+    }
+},
+{
+    "name": "Storage.Type",
+    "scope":[
+        "storage.type.primitive",
+        "storage.type.built-in",
+        "entity.name.type.parameter",
+        "entity.name.type.class",
+        "entity.name.type.result",
+
+        "storage.type.rust",
+        "entity.name.type.rust"
+        
+    ],
+    "settings": {
+        "foreground": "#ffc04a",
+    }
+},
+{
+    "name": "Meta.Qualified_type",
+    "scope":[
+        "meta.qualified_type",
+
+        "keyword.other.rust"
+    ],
+    "settings": {
+        "foreground": "#ffde4a",
+    }
+},
+{
+    "name": "Storage Modifier",
+    "scope": [
+        "storage.modifier"
+    ],
+    "settings": {
+        "foreground": "#ff9100"
+    }
+},
+{
+    "name": "Storage.type.function",
+    "scope":[
+        "storage.type.function",
+        "storage.type.class",
+
+        "keyword.other.fn.rust"
+    ],
+    "settings": {
+        "foreground": "#28a9ff",
+        "fontStyle": "italic bold"
+    }
+},
+{
+    "name": "Function name",
+    "scope": [
+        // "entity.name.function & meta.function.definition",
+        // "variable.function",
+        "meta.function.definition",
+        // "support.function",
+    ],
+    "settings": {
+        "foreground": "#a6afff",
+        "fontStyle": "bold"
+    }
+},
+{
+    "name": "Meta.body.function.definition",
+    "scope":[
+        "entity.name.function.call",
+        "meta.function-call"
+        // "meta.body.function.definition",
+    ],
+    "settings": {
+        "foreground": "#81e6ff"
+    }
+},
+{
+    "name": "Function-call",
+    "scope": [
+        "entity.name.function.member",
+        "meta.function-call.generic",
+        "meta.function.call",
+        "meta.method-call"
+        // "meta.class"
+    ],
+    "settings": {
+        "foreground": "#4fcfba",
+    }
+},
+{
+    "name": "Operator, Misc",
+    "scope": [
+        "constant.other.color",
+        "punctuation.terminator",
+        "punctuation.brackets",
+        
+        // "punctuation.section.block.begin.bracket",
+        // "punctuation.section.block.end.bracket",
+        "punctuation.section",
+        "punctuation.section.embedded",
+        "meta.tag",
+        "punctuation.separator",
+        "punctuation.separator.inheritance.php",
+        "punctuation.definition.block",
+        "punctuation.definition.tag",
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.definition.dictionary",
+        "punctuation.semi",
+        "punctuation.comma",
+        "keyword.other.template",
+        "keyword.other.substitution"
+    ],
+    "settings": {
+        "foreground": "#7bc1dd",
+        "fontStyle": ""
+    }
+},
+{
+    "name":"Punctuation.Definition.Parameters",
+    "scope":[
+        "punctuation.definition.begin",
+        "punctuation.definition.end",
+        "punctuation.section.parameters.begin",
+        "punctuation.section.parameters.end",
+        "punctuation.section.arguments.begin",
+        "punctuation.section.arguments.end",
+        "meta.brace"
+    ],
+    "settings": {
+        "foreground": "#76adff",
+        "fontStyle": ""
+    }
+},
+{
+    "name":"Keyword.Operator",
+    "scope": [
+        "keyword.operator",
+    ],
+    "settings": {
+        "foreground": "#ffed9f"
+    }
+},
+{
+    "name": "Keyword.Control",
+    "scope":[
+        "keyword.control",
+        "keyword.other.import",
+        "meta.macro"
+        
+    ],
+    "settings": {
+        "foreground": "#c39eff",
+        "fontStyle":"italic bold"
+    }
+},
+{
+    "name": "Meta.Macro",
+    "scope":[
+        "meta.preprocessor.macro",
+        "meta.macro"
+    ],
+    "settings": {
+        "foreground": "#ffa4ff",
+    }
+},
+{
+    "name": "Constant Number char",
+    "scope":[
+        "constant.numeric",
+        "constant.character"
+    ],
+    "settings":{
+        "foreground": "#ff3773",
+        "fontStyle": "bold"
+    }
+},
