@@ -6,8 +6,8 @@
 		"activityBar.foreground": "#f8ffcf", //侧边栏元素
 		"activityBarBadge.background": "#3bfff5", //侧边栏元素活跃徽章
 		"activityBarBadge.foreground": "#000000", //侧边栏元素活跃徽章背板
-		"badge.background": "#3bfff5ad", //通用徽章前景
-		"badge.foreground": "#000000", //通用徽章背板
+		"badge.background": "#131313", //通用徽章背板
+		"badge.foreground": "#dbfbff", //通用徽章前景
 		"button.background": "#3bfff552", //按键背板
 		"debugToolBar.background": "#464646", //debug条背板
 		"diffEditor.insertedTextBackground": "#c6ff911e", //比对增
@@ -16,7 +16,8 @@
 		"dropdown.border": "#5c5c5c",
 		"editor.background": "#000000",
 		"editor.foreground": "#fff4ee",
-		"editor.lineHighlightBackground": "#ff863528",
+        "editor.foldBackground":"#0043b61d",
+		"editor.lineHighlightBackground": "#ffbb4f1a",
 		"editor.selectionBackground": "#73c7ff5b",
 		"editor.selectionHighlightBackground": "#ff004033",
 		"editorBracketMatch.background": "#f0ff171c",
@@ -33,7 +34,7 @@
 		"editorHoverWidget.background": "#000000",
 		"editorHoverWidget.border": "#ffffff36",
         "editorHoverWidget.foreground":"#ffffff",
-		"editorIndentGuide.background": "#7cf0ff70",
+		"editorIndentGuide.background": "#4fadff6b",
 		"editorLineNumber.foreground": "#64614f",
         "editorLineNumber.activeForeground":"#fff2a8",
 		"editorLink.activeForeground": "#ffeeee",
@@ -85,14 +86,14 @@
 		"selection.background": "#25deff8c",
 		"sideBar.background": "#070707",
 		"sideBar.border": "#1a1a1a",
-		"sideBar.foreground": "#7e7e7e",
-		"sideBarSectionHeader.background": "#222222",
+		"sideBar.foreground": "#7d7d7d",
+		"sideBarSectionHeader.background": "#1a1a1a",
 		"sideBarTitle.foreground": "#eefff8",
-		"statusBar.background":"#000000",
-		"statusBar.border": "#111111",
+		"statusBar.background":"#1c1c1c",
+		"statusBar.border": "#2d2d2d",
 		"statusBar.debuggingBackground": "#8856b8",
 		"statusBar.debuggingForeground": "#ffffff",
-		"statusBar.foreground": "#a8ffec",
+		"statusBar.foreground": "#b8ffea",
 		"statusBar.noFolderBackground": "#151718",
 		"tab.activeBorder": "#3d8bff",
 		"tab.activeForeground": "#80c6ff",
@@ -273,7 +274,8 @@
         {
             "name": "Storage.modifier",
             "scope":[
-                "storage.modifier"
+                "storage.modifier",
+                "entity.name.type.lifetime"
             ],  
             "settings": {
                 "foreground": "#ff9100",
@@ -462,6 +464,70 @@
                 "foreground": "#ff8b68",
                 "fontStyle": "italic"
             }
-        }
-    ]
+        },
+        {//json
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#FFCB6B"
+			}
+		},
+		{
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#F78C6C"
+			}
+		},
+		{
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#FF5370"
+			}
+		},
+		{
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#C17E70"
+			}
+		},
+		{
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#F07178"
+			}
+		},
+		{
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#C792EA"
+			}
+		},
+		{
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#C3E88D"
+			}
+		},
+    ],
 }
