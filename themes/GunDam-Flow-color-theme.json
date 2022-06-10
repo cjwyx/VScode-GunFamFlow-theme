@@ -15,11 +15,11 @@
 		"dropdown.background": "#272727",
 		"dropdown.border": "#5c5c5c",
 		"editor.background": "#000000",
-		"editor.foreground": "#fff4ee",
+		"editor.foreground": "#ffe8df",
         "editor.foldBackground":"#0043b61d",
 		"editor.lineHighlightBackground": "#ffbb4f1a",
-		"editor.selectionBackground": "#73c7ff5b",
-		"editor.selectionHighlightBackground": "#ff004033",
+		"editor.selectionBackground": "#37b6ff5d",
+		"editor.selectionHighlightBackground": "#d8467656",
 		"editorBracketMatch.background": "#f0ff171c",
 		"editorBracketMatch.border": "#f0ff1750",
 		"editorCursor.foreground": "#ffee00",
@@ -34,9 +34,9 @@
 		"editorHoverWidget.background": "#000000",
 		"editorHoverWidget.border": "#ffffff36",
         "editorHoverWidget.foreground":"#ffffff",
-		"editorIndentGuide.background": "#4fadff6b",
-		"editorLineNumber.foreground": "#64614f",
-        "editorLineNumber.activeForeground":"#fff2a8",
+		"editorIndentGuide.background": "#3895ff3b",
+		"editorLineNumber.foreground": "#ffe67970",
+        "editorLineNumber.activeForeground":"#8cffcfc9",
 		"editorLink.activeForeground": "#ffeeee",
 		"editorMarkerNavigation.background": "#eeffff05",
 		"editorSuggestWidget.background": "#181a1b",
@@ -78,18 +78,18 @@
 		"pickerGroup.foreground": "#57b5f9",
 		"progressBar.background": "#57b5f9",
 		"scrollbar.shadow": "#212121",
-		"scrollbarSlider.activeBackground": "#57b5f9",
-		"scrollbarSlider.background": "#57b5f96c",
-		"scrollbarSlider.hoverBackground": "#b1dfff",
+		"scrollbarSlider.activeBackground": "#508dffc7",
+		"scrollbarSlider.background": "#82aeff67",
+		"scrollbarSlider.hoverBackground": "#b5cfffc7",
         "minimap.findMatchHighlight":"#58ffb980",
         "minimap.errorHighlight":"#ff0000",
-		"selection.background": "#25deff8c",
+		"selection.background": "#8bfbff56",
 		"sideBar.background": "#070707",
 		"sideBar.border": "#1a1a1a",
 		"sideBar.foreground": "#7d7d7d",
 		"sideBarSectionHeader.background": "#1a1a1a",
 		"sideBarTitle.foreground": "#eefff8",
-		"statusBar.background":"#1c1c1c",
+		"statusBar.background":"#00388b",
 		"statusBar.border": "#2d2d2d",
 		"statusBar.debuggingBackground": "#8856b8",
 		"statusBar.debuggingForeground": "#ffffff",
@@ -125,7 +125,7 @@
         // "terminalCursor.background":"#ff0000",//终端光标的背景色
         "terminalCursor.foreground":"#ffa600",//终端光标的前景色
 		"textLink.activeForeground": "#eeffff",
-		"textLink.foreground": "#00f7ff",
+		"textLink.foreground": "#00d4c3",
 		"titleBar.activeBackground": "#161616",
 		"titleBar.activeForeground": "#bebebe",
 		"titleBar.border": "#101213",
@@ -142,7 +142,7 @@
             ],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#38665c"
+                "foreground": "#425a55"
             }
         },
         {
@@ -154,7 +154,7 @@
                 "other"
             ],
             "settings": {
-                "foreground": "#ffe9e3"
+                "foreground": "#ffdcdc"
             }
         },
 		{
@@ -410,7 +410,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89d0ff"
+				"foreground": "#5fb7ffd8"
 			}
 		},
 		{
