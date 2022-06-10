@@ -91,9 +91,9 @@
 		"sideBarTitle.foreground": "#eefff8",
 		"statusBar.background":"#00388b",
 		"statusBar.border": "#2d2d2d",
-		"statusBar.debuggingBackground": "#8856b8",
+		"statusBar.debuggingBackground": "#b556b8",
 		"statusBar.debuggingForeground": "#ffffff",
-		"statusBar.foreground": "#b8ffea",
+		"statusBar.foreground": "#e6fff8",
 		"statusBar.noFolderBackground": "#151718",
 		"tab.activeBorder": "#3d8bff",
 		"tab.activeForeground": "#80c6ff",
@@ -154,7 +154,7 @@
                 "other"
             ],
             "settings": {
-                "foreground": "#ffdcdc"
+                "foreground": "#ffe7e7ef"
             }
         },
 		{
