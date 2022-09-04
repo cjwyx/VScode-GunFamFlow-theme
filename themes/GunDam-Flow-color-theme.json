@@ -1,8 +1,8 @@
 {
 	"name": "GunDam-Flow",
 	"colors": {
-		"activityBar.background": "#111111", //侧边栏
-		"activityBar.border": "#333333", //侧边栏边界
+		"activityBar.background": "#222222", //侧边栏
+		"activityBar.border": "#222222", //侧边栏边界
 		"activityBar.foreground": "#ccf3ff", //侧边栏元素
 		"activityBarBadge.background": "#3bfff5", //侧边栏元素活跃徽章
 		"activityBarBadge.foreground": "#000000", //侧边栏元素活跃徽章背板
@@ -12,7 +12,7 @@
 		"debugToolBar.background": "#464646", //debug条背板
 		"diffEditor.insertedTextBackground": "#c6ff911e", //比对增
 		"diffEditor.removedTextBackground": "#ff535320", //比对减
-		"dropdown.background": "#272727",
+		"dropdown.background": "#444444",
 		"dropdown.border": "#5c5c5c",
 		"editor.background": "#000000",
 		"editor.foreground": "#ffe8df",
@@ -23,8 +23,8 @@
 		"editorBracketMatch.background": "#f0ff171c",
 		"editorBracketMatch.border": "#f0ff1750",
 		"editorCursor.foreground": "#ffee00",
-		"editorError.foreground": "#ff0141e9",
-		"editorGroup.border": "#222222",
+		"editorError.foreground": "#ff01417e",
+		"editorGroup.border": "#3a3a3a",
 		"editorGroupHeader.tabsBackground": "#111111",
 		"editorGroupHeader.tabsBorder": "#333333",
         "editorGroup.dropBackground":"#77cdff42",
@@ -44,7 +44,7 @@
 		"editorSuggestWidget.foreground": "#daffff",
 		"editorSuggestWidget.highlightForeground": "#34aeff",
 		"editorSuggestWidget.selectedBackground": "#00000050",
-		"editorWarning.foreground": "#fff267f7",
+		"editorWarning.foreground": "#c3e88d70",
 		"editorWhitespace.foreground": "#eeffff10",
 		"editorWidget.background": "#151718",
 		"extensionButton.prominentBackground": "#c3e88d90",
@@ -85,11 +85,11 @@
         "minimap.errorHighlight":"#ff0000",
 		"selection.background": "#8bfbff56",
 		"sideBar.background": "#070707",
-		"sideBar.border": "#1a1a1a",
+		"sideBar.border": "#3a3a3a",
 		"sideBar.foreground": "#7d7d7d",
-		"sideBarSectionHeader.background": "#1a1a1a",
+		"sideBarSectionHeader.background": "#222222",
 		"sideBarTitle.foreground": "#eefff8",
-		"statusBar.background":"#00388b",
+		"statusBar.background":"#153891",
 		"statusBar.border": "#2d2d2d",
 		"statusBar.debuggingBackground": "#b556b8",
 		"statusBar.debuggingForeground": "#ffffff",
@@ -143,7 +143,7 @@
             ],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#425a55"
+                "foreground": "#93b9b8a4"
             }
         },
         {
@@ -186,7 +186,7 @@
                 "constant.language.boolean"
             ],
             "settings":{
-                "foreground": "#ff4b4b",
+                "foreground": "#ff5f67",
                 "fontStyle": "bold"
             }
         },
@@ -194,9 +194,10 @@
             "name": "Constant.language",
             "scope":[
                 "constant.language",
+                "constant.language.NULL.cpp"
             ],
             "settings":{
-                "foreground": "#ff769f",
+                "foreground": "#ff57a5",
                 "fontStyle": "bold"
             }
             
@@ -224,11 +225,12 @@
         {
 			"scope": [
 				"variable.parameter.function.language.special",
+                "variable.language.this.cpp",
                 "variable.language.special",
                 "variable.language.self.rust"
 			],
 			"settings": {
-				"foreground": "#df4566",
+				"foreground": "#c42675",
                 "fontStyle": "italic"
 			}
 		},
@@ -237,7 +239,7 @@
 				"source.cpp meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#F07178"
+				"foreground": "#E85827"
 			}
 		},
 		{
@@ -254,7 +256,7 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#F07178"
+				"foreground": "#fc9096"
 			}
 		},
 		{
@@ -312,7 +314,7 @@
                 // "meta.class"
             ],
             "settings": {
-                "foreground": "#ffc400",
+                "foreground": "#FBD26A",
             }
         },
         {
@@ -340,7 +342,7 @@
                 "keyword.struct.go"
             ],
             "settings": {
-                "foreground": "#ffe89d",
+                "foreground": "#ffec9e",
             }
         },
         {
@@ -393,7 +395,7 @@
                 "keyword.operator.borrow"
             ],
             "settings": {
-                "foreground": "#ffb88f"
+                "foreground": "#81D8D0"
             }
         },
 		{
