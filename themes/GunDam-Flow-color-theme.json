@@ -3,7 +3,7 @@
 	"colors": {
 		"activityBar.background": "#222222", //侧边栏
 		"activityBar.border": "#222222", //侧边栏边界
-		"activityBar.foreground": "#ccf3ff", //侧边栏元素
+		"activityBar.foreground": "#acfff4", //侧边栏元素
 		"activityBarBadge.background": "#3bfff5", //侧边栏元素活跃徽章
 		"activityBarBadge.foreground": "#000000", //侧边栏元素活跃徽章背板
 		"badge.background": "#131313", //通用徽章背板
@@ -35,8 +35,8 @@
 		"editorHoverWidget.border": "#ffffff36",
         "editorHoverWidget.foreground":"#ffffff",
 		"editorIndentGuide.background": "#3895ff42",
-		"editorLineNumber.foreground": "#ffe67970",
-        "editorLineNumber.activeForeground":"#8cffcfc9",
+		"editorLineNumber.foreground": "#ffffff6b",
+        "editorLineNumber.activeForeground":"#8cffe6c5",
 		"editorLink.activeForeground": "#ffeeee",
 		"editorMarkerNavigation.background": "#eeffff05",
 		"editorSuggestWidget.background": "#181a1b",
@@ -66,8 +66,8 @@
 		"list.hoverForeground": "#ffffff",
 		"list.inactiveSelectionBackground": "#151718",
 		"list.inactiveSelectionForeground": "#ffffff",
-		"panel.background": "#121415",
-		"panel.border": "#000000",
+		"panel.background": "#222222",
+		"panel.border": "#3a3a3a",
 		"panelTitle.activeForeground": "#eeffff",
 		"peekView.border": "#00676e",
 		"peekViewEditor.background": "#00676e1e",
@@ -120,7 +120,7 @@
 		"terminal.ansiWhite": "#ffffff",
 		"terminal.ansiYellow": "#ffcb6b",
         "terminal.background":"#000000",
-        "terminal.border":"#222222",//：分隔终端内分割窗格的边框色。默认为panel.border
+        "terminal.border":"#3a3a3a",//：分隔终端内分割窗格的边框色。默认为panel.border
         "terminal.foreground":"#c8d0bd",//集成终端的默认文字色
         "terminal.selectionBackground":"#234a9ca4",//终端的选择背景色
         // "terminalCursor.background":"#ff0000",//终端光标的背景色
