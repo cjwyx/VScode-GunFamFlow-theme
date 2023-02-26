@@ -3,13 +3,26 @@
 	"colors": {
 		"activityBar.background": "#222222", //侧边栏
 		"activityBar.border": "#222222", //侧边栏边界
-		"activityBar.foreground": "#acfff4", //侧边栏元素
-		"activityBarBadge.background": "#3bfff5", //侧边栏元素活跃徽章
+		"activityBar.foreground": "#9be3ff", //侧边栏元素
+		"activityBarBadge.background": "#3be2ff", //侧边栏元素活跃徽章
 		"activityBarBadge.foreground": "#000000", //侧边栏元素活跃徽章背板
 		"badge.background": "#131313", //通用徽章背板
 		"badge.foreground": "#dbfbff", //通用徽章前景
 		"button.background": "#3bfff552", //按键背板
 		"debugToolBar.background": "#464646", //debug条背板
+        "debugToolBar.border": "#b1b1b1", //debug border 
+        "editor.hoverHighlightBackground": "#b1faee44",
+        
+        "debugTokenExpression.name": "#e9b880ec",
+        "debugTokenExpression.boolean": "#dd5d8ee5",
+        "debugTokenExpression.number": "#e96f1eec",
+        "debugTokenExpression.string": "#d6ff8ace",
+        "debugTokenExpression.value": "#8f8f8f",
+        "debugIcon.startForeground": "#66ff00",
+        "debugIcon.breakpointForeground": "#ff0000",
+        "debugIcon.breakpointDisabledForeground": "#5f8581",
+        "debugIcon.continueForeground": "#39ffee",
+        // "debugExceptionWidget.border": "#ff0000",
 		"diffEditor.insertedTextBackground": "#c6ff911e", //比对增
 		"diffEditor.removedTextBackground": "#ff535320", //比对减
 		"dropdown.background": "#444444",
@@ -31,10 +44,13 @@
 		"editorGutter.addedBackground": "#c3e88d60",
 		"editorGutter.deletedBackground": "#ff537060",
 		"editorGutter.modifiedBackground": "#82aaff60",
+        // "symbolIcon.folderForeground": "#ff0000",
+        // "editorGutter.background": "#2c2c2c",
 		"editorHoverWidget.background": "#000000",
 		"editorHoverWidget.border": "#ffffff36",
         "editorHoverWidget.foreground":"#ffffff",
 		"editorIndentGuide.background": "#3895ff42",
+        "editorIndentGuide.activeBackground": "#c74dff67",
 		"editorLineNumber.foreground": "#ffffff6b",
         "editorLineNumber.activeForeground":"#8cffe6c5",
 		"editorLink.activeForeground": "#ffeeee",
@@ -72,9 +88,10 @@
 		"peekView.border": "#00676e",
 		"peekViewEditor.background": "#00676e1e",
 		"peekViewEditorGutter.background": "#001618",
-		"peekViewResult.background": "#eeffff05",
-		"peekViewTitle.background": "#eeffff05",
-		"peekViewTitleDescription.foreground": "#faffcea1",
+		"peekViewResult.background": "#44444450",
+		"peekViewTitle.background": "#00639c4f",
+		"peekViewTitleDescription.foreground": "#d3db86bd",
+        "peekViewEditor.matchHighlightBackground": "#ffe24041",
 		"pickerGroup.foreground": "#57b5f9",
 		"progressBar.background": "#57b5f9",
 		"scrollbar.shadow": "#212121",
@@ -89,6 +106,10 @@
 		"sideBar.foreground": "#7d7d7d",
 		"sideBarSectionHeader.background": "#222222",
 		"sideBarTitle.foreground": "#eefff8",
+        "sideBarSectionHeader.border": "#327fd641",
+        "sideBarSectionHeader.foreground": "#a8a8a8",
+        "sideBar.dropBackground": "#67faff2d",
+        // "menu.background": "#ff0000",
 		"statusBar.background":"#153891",
 		"statusBar.border": "#2d2d2d",
 		"statusBar.debuggingBackground": "#b556b8",
@@ -127,9 +148,9 @@
         "terminalCursor.foreground":"#ffa600",//终端光标的前景色
 		"textLink.activeForeground": "#eeffff",
 		"textLink.foreground": "#00d4c3",
-		"titleBar.activeBackground": "#161616",
-		"titleBar.activeForeground": "#bebebe",
-		"titleBar.border": "#101213",
+		"titleBar.activeBackground": "#1d1d1d",
+		"titleBar.activeForeground": "#d1d1d1",
+		"titleBar.border": "#303030",
 		"titleBar.inactiveBackground": "#111111",
 		"titleBar.inactiveForeground": "#9c9c9c",
 		"widget.shadow": "#000000",
@@ -230,7 +251,7 @@
                 "variable.language.self.rust"
 			],
 			"settings": {
-				"foreground": "#c42675",
+				"foreground": "#dd4599",
                 "fontStyle": "italic"
 			}
 		},
