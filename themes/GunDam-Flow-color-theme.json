@@ -176,7 +176,7 @@
                 "other"
             ],
             "settings": {
-                "foreground": "#ffe9e9f3"
+                "foreground": "#e6cfcfee"
             }
         },
 		{
@@ -207,7 +207,7 @@
                 "constant.language.boolean"
             ],
             "settings":{
-                "foreground": "#ff5f67",
+                "foreground": "#ff6b72",
                 "fontStyle": "bold"
             }
         },
@@ -240,7 +240,7 @@
                 "meta.function-call.arguments"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#e7e7e7"
 			}
         },
         {
