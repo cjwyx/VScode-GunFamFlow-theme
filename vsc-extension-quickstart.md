@@ -26,3 +26,8 @@ To learn more about scopes and how they're used, check out the [color theme](htt
 
 * To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
 * To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
+
+```json
+{"identifier":{"id":"undefined_publisher.vscode-gundamflow-theme"},"version":"0.0.1","location":{"$mid":1,"path":"/c:/Users/hp/.vscode/extensions/vscode-gundamflow-theme","scheme":"file"},"relativeLocation":"vscode-gundamflow-theme"}
+
+```
