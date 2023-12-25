@@ -207,7 +207,7 @@
                 "constant.language.boolean"
             ],
             "settings":{
-                "foreground": "#ff6b72",
+                "foreground": "#ff6b72d0",
                 "fontStyle": "bold"
             }
         },
@@ -232,7 +232,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#ffbfa6ef"
+				"foreground": "#ffb496ef"
 			}
 		},
         {
@@ -240,7 +240,7 @@
                 "meta.function-call.arguments"
 			],
 			"settings": {
-				"foreground": "#e7e7e7"
+				"foreground": "#ffb496ef"
 			}
         },
         {
@@ -251,7 +251,7 @@
                 "variable.language.self.rust"
 			],
 			"settings": {
-				"foreground": "#dd4599",
+				"foreground": "#ff837ede",
                 "fontStyle": "italic"
 			}
 		},
@@ -292,7 +292,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D",
+				"foreground": "#c6fa79c5",
 			}
 		},
         {
@@ -375,7 +375,18 @@
                 // "meta.function.definition"
             ],
             "settings": {
-                "foreground": "#56adff",
+                "foreground": "#4ca9ffdc",
+                "fontStyle":"italic bold"
+            }
+        },
+        {
+            "name": "decorator.python",
+            "scope":[
+                "meta.function.decorator.python"
+                // "meta.function.definition"
+            ],
+            "settings": {
+                "foreground": "#ff9f31e8",
                 "fontStyle":"italic bold"
             }
         },
@@ -386,7 +397,7 @@
                 // "meta.function.definition"
             ],
             "settings": {
-                "foreground": "#9d92ff",
+                "foreground": "#a89effec",
                 "fontStyle":"italic bold"
             }
             
@@ -405,7 +416,7 @@
                 
             ],
             "settings": {
-                "foreground": "#c599ff",
+                "foreground": "#b57dffe0",
                 "fontStyle":"italic bold"
             }
         },
@@ -422,7 +433,6 @@
 		{
 			"scope": [
 				"constant.other.color",
-				"punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
@@ -453,7 +463,7 @@
                 "support.function",
 			],
 			"settings": {
-				"foreground": "#9dbcff",
+				"foreground": "#87a7ffe7",
 			}
 		},
 		{
@@ -463,7 +473,7 @@
 				"keyword.other.special-method",
 			],
 			"settings": {
-				"foreground": "#80e2bc"
+				"foreground": "#80e5bed2"
 			}
 		},
         {
